@@ -11,7 +11,11 @@ const wrongMessages = [
     "Try out the other button.",
     "Don't do this to me :((",
     "Look at the other button!",
-    "I'm going to cry..."
+    "I'm going to cry...", 
+    "I'll die :((",
+    "You're Breaking My Heart </3",
+    "Are you sure? :(",
+    "Please reconsider"
 ];
 
 let yesScale = 1; 
@@ -46,4 +50,5 @@ noBtn.addEventListener('click', moveButton);
 yesBtn.addEventListener('click', () => {
     questionContainer.style.display = 'none'; 
     successContainer.classList.remove('hidden'); 
+
 });
